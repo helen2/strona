@@ -1,0 +1,1 @@
+To jest moja nowa strona www
