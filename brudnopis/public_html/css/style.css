@@ -16,7 +16,7 @@ body{
 
 .logo{
     text-decoration: none;
-    color: #55B388;
+    color:green;
     font-size: 40px;
 }
 header
@@ -48,6 +48,7 @@ header
    nav ul li a:hover{
        color:#55B388;
    }
+   
    /*wysrodkowanie str*/
    .middle{
        margin:0 auto;
@@ -86,13 +87,77 @@ header
    }
    .right-block{
        width: 400px;
-       text-align: right;
    } 
      
-   img{
-        margin-left:200px;
+   .prawo{
+    margin-left: 200px;
    }
+
+   
+   
    .heder-text{
        color: white;
        line-height: 25px;
+   }
+   
+   .alginTexRight{
+       text-align: right;
+   }
+   h2{
+     text-align: left;
+   }
+   
+   .tlo-zielone{
+      background-color: #55B388;
+          height: 500px;
+   }
+   .tlo-zielone h2, .tlo-zielone h3{
+       text-align:center;
+       color:#ffffff;
+       
+   } 
+   .kapelusz{
+       width: 800px;
+           /*szerokosc*/
+       height:533px; 
+       /*wysokosc*/
+   }
+   .color-wyrazu{
+       color:#55B388;
+   }
+   h3{
+       text-align: center;
+   }
+   .biala-sekcja{
+       margin-top: 200px;
+   }
+   video{
+       width: 600px;
+       height:426px;
+       margin-left:200px;
+   }
+   .Agata-srodek{
+       text-align: center;
+   }
+   .circle{
+       height:80px;
+       width:80px;
+       border-radius: 50px;
+       display: inline-block;
+       background-color: #55B388;
+       text-decoration: none;
+       color: #ffffff;
+   }
+   /*stopka*/
+   .circle:after{
+       content: "<";
+       display: block;
+       font-size: 50px;
+       transform: rotate(90deg);
+       -ms-transform:rotate(90deg);
+       -webkit-transform: rotate (90deg);
+        margin-top:7px;
+   }
+   .circle:hover{
+       background-color: #7fd8af;
    }
